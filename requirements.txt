@@ -1,0 +1,102 @@
+# General Utilities
+numpy
+pandas
+scipy
+tqdm
+h5py
+joblib
+python-dateutil
+
+# Machine Learning and Deep Learning Frameworks
+tensorflow>=2.0
+keras
+torch
+torchvision
+pytorch3d
+tensorflow-addons
+
+# Natural Language Processing
+nltk
+spacy
+gensim
+transformers
+
+# Text Processing Utilities
+regex
+unidecode
+beautifulsoup4
+
+# Image Processing
+opencv-python
+Pillow
+scikit-image
+albumentations
+imgaug
+
+# 3D Data Processing
+trimesh
+open3d
+meshio
+vtk
+mayavi
+
+# Medical Image Processing
+pydicom
+SimpleITK
+monai
+nibabel
+
+# Visualization
+matplotlib
+seaborn
+plotly
+tensorboard
+
+# Evaluation Metrics
+scikit-learn
+
+# Deployment
+flask
+django
+fastapi
+uvicorn
+gunicorn
+starlette
+
+# Configuration and Environment
+python-dotenv
+pydantic
+
+# Logging and Debugging
+loguru
+pytest
+
+# Model Explainability
+shap
+lime
+captum
+
+# Serialization and Data Formats
+pickle5
+hdf5storage
+msgpack
+
+# Compression and File Handling
+pyzipper
+
+# Advanced Mathematical Functions
+sympy
+numba
+
+# For BERT, GPT Models
+sentencepiece
+
+# Progress Bars
+tqdm
+
+# Multiprocessing and Parallelism
+multiprocess
+
+# Code Formatting and Linting
+black
+flake8
