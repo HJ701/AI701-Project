@@ -1,8 +1,12 @@
 # __init__.py
 
 from .text_preprocessing import (
-    preprocess_clinical_notes,
-    encode_texts
+    preprocess_and_extract_labels,
+    extract_iotn_grade,
+    extract_malocclusion_class,
+    extract_diagnoses,
+    clean_text,
+    normalize_text
 )
 
 from .image_preprocessing import (
@@ -18,8 +22,12 @@ from .radiograph_preprocessing import (
 )
 
 __all__ = [
-    'preprocess_clinical_notes',
-    'encode_texts',
+    'preprocess_and_extract_labels',
+    'extract_iotn_grade',
+    'extract_malocclusion_class',
+    'extract_diagnoses',
+    'clean_text',
+    'normalize_text',
     'load_and_preprocess_image',
     'preprocess_dataset',
     'load_and_preprocess_radiograph',
