@@ -4,7 +4,6 @@ import regex
 # import beautifulsoup4
 import os
 
-
 def ingest_clinical_notes(data_path):
     
     # List all files in the data directory
@@ -13,7 +12,7 @@ def ingest_clinical_notes(data_path):
 
     # Try to find the clinical notes file
     for file in files:
-        if 'txt' in file.lower() or 'txt' in file.lower() or 'clinical_notes' in file.lower():
+        if 'txt' in file.lower() or 'txt' in file.lower() or 'clinical_notes' in file.lower() or 'docx' in file.lower():
             clinical_notes_file = os.path.join(data_path, file)
             break
 
