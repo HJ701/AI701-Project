@@ -119,7 +119,7 @@ def _show_image(image, label=None):
     plt.show()
 
 
-def _augment_image(image, augmentations=None):
+def augment_image(image, augmentations=None):
     """
     Applies data augmentation techniques to the image.
     Currently supported augmentations: flip_horizontal, flip_vertical, rotate.
@@ -211,7 +211,7 @@ def preprocess_dataset(
             image_path, target_size=(224, 224), preserve_aspect_ratio=True
         )
         if is_training and augmentations:
-            image = _augment_image(image, augmentations)
+            image = augment_image(image, augmentations)
         return image, label
 
     # Map the processing function to each item

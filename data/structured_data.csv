@@ -1,68 +1,261 @@
 patient_id,set,clinical_notes,image_filenames,radiograph_filenames
-19,train,"CLASS 1 MALOCCLUSION+deep bite+impacted #22
-
-IOTN-4","['DSC_0643.JPG', 'DSC_0644.JPG', 'DSC_0645.JPG', 'DSC_0763.JPG', 'DSC_0762.JPG']",['3.jpg']
-4,train,,"['DSC_0353.JPG', 'DSC_0354.JPG', 'DSC_0159.JPG', 'DSC_0160.JPG', 'DSC_0161.JPG']",['pano.jpg']
-10,train,"Diagnosis: Class 1 malocclusion with bilateral posterir crossbite, ( more than 1 mm but less than 3.5 mm) 
-
+46,train,"Diagnosis: class 1 malocclusion+spacing
+IOTN - 4","['DSC_0647.JPG', 'DSC_0069.JPG', 'DSC_0068.JPG', 'DSC_0646.JPG', 'DSC_0067.JPG']",['1.jpg']
+95,train,"Diagnosis- Class 2  Malocclusion + lateral open bite
 IOTN-3
-","['_DSC0007.JPG', '_DSC0011.JPG', '_DSC0010.JPG', '_DSC0009.JPG', '_DSC0008.JPG']",['3.jpg']
-14,train,"CLASS 1 MALOCCLUSION+BILATERAL POSTERIOR CROSSBITE #14, 
+","['DSC_0313.JPG', 'DSC_0315.JPG', 'DSC_0314.JPG', 'DSC_0375.JPG', 'DSC_0376.JPG']",['2.jpg']
+93,train,"Diagnosis- Class 1  Malocclusion + crowding + scissors bite # 21+ rotation 
+IOTN-4
+","['DSC_0193.JPG', 'DSC_0192.JPG', 'DSC_0191.JPG', 'DSC_0195.JPG', 'DSC_0194.JPG']",['2.jpg']
+97,train,"Diagnosis- Class 2 Malocclusion + scissors bite # 21 , # 28 + rotation 
+IOTN- 4","['DSC_0696.JPG', 'DSC_0697.JPG', 'DSC_0693.JPG', 'DSC_0701.JPG', 'DSC_0699.JPG']",['B.jpg']
+32,train,"Diagnosis- Class 1 Malocclusion +spacing  + rotation 
+IOTN-3","['DSC_0457.JPG', 'DSC_0456.JPG', 'DSC_0454.JPG', 'DSC_0455.JPG', 'DSC_0453.JPG']",['2.jpg']
+17,train,"CLASS 1 MALOCCLUSION+BILATERAL lateral open bite+crowding
 
-IOTN-4","['DSC_0910.JPG', 'DSC_0903.JPG', 'DSC_0902.JPG', 'DSC_0909.JPG', 'DSC_0908.JPG']",['2.jpg']
+IOTN-4","['_DSC2213.JPG', '_DSC2212.JPG', '_DSC2215.JPG', '_DSC2214.JPG', '_DSC2216.JPG']",['3.jpg']
+91,train,"Diagnosis- Class 1  Malocclusion + crowding 
+IOTN- 2
+","['DSC_0805.JPG', 'DSC_0804.JPG', 'DSC_0806.JPG', 'DSC_0942.JPG', 'DSC_0941.JPG']",['opg.jpg']
+22,train,"
+Diagnosis- Class 1 Malocclusion + missing # 14 & 19 + crowding 
+IOTN-4","['DSC_0970.JPG', 'DSC_0972.JPG', 'DSC_0973.JPG', 'DSC_0969.JPG', 'DSC_0968.JPG']",['3.jpg']
+52,train,"Diagnosis- Class 1 Malocclusion + overjet + spaces + missing # 25
+IOTN-3","['DSC_0508.JPG', 'DSC_0504.JPG', 'DSC_0505.JPG', 'DSC_0507.JPG', 'DSC_0506.JPG']",['2.jpg']
+82,train,"Diagnosis- Class 2  Malocclusion +overjet + crowding + rotation 
+IOTN-3","['Picture 2568.jpg', 'Picture 2563.jpg', 'Picture 2572.jpg', 'Picture 2570.jpg', 'Picture 2564.jpg']",['1.jpg']
+83,train,"Diagnosis- Class 2  Malocclusion + deep bite +missing # 26 , 23 + spaces
+IOTN-4","['DSCN0708.JPG', 'DSCN0711.JPG', 'DSCN0710.JPG', 'DSCN0712.JPG', 'DSCN0707.JPG']",['L2.jpg']
+38,train,"Diagnosis- Class 1 Malocclusion 
+IOTN-2
+","['DSC_0795.JPG', 'DSC_0794.JPG', 'DSC_1089.JPG', 'DSC_1088.JPG', 'DSC_1090.JPG']",['1.jpg']
+5,train,"Diagnosis: Class 3 malocclusion with 
+Missing #3,14,30 & 19,bilateral posterior crossbite, upper and lower crowding ,mandibular prognathia,  lower midline shift to right  by 4.5 mm, anterior and posterior open bites
+IOTN-5","['DSC_0251.JPG', 'DSC_0250.JPG', 'DSC_0252.JPG', 'DSC_0247.JPG', 'DSC_0248.JPG']",['3.jpg']
+84,train,"Diagnosis- Class 3  Malocclusion + cross bite +missing + spaces + rotation 
+IOTN-4
+","['_DSC0267.JPG', '_DSC0266.JPG', '_DSC0270.JPG', '_DSC0271.JPG', '_DSC0269.JPG']",['3.jpg']
+44,train,"Diagnosis: class 3 malocclusion +reverse overjet, bilateral posterior crossbite and lateral open bite and impacted #6 & #11
+IOTN = 5","['_DSC1336.JPG', '_DSC1337.JPG', '_DSC1335.JPG', '_DSC1339.JPG', '_DSC1338.JPG']",['OPG.jpg']
+94,train,"Diagnosis- Class 1  Malocclusion + spaces 
+IOTN-2
+","['DSC_0765.JPG', '_DSC0741.JPG', 'DSC_0764.JPG', '_DSC0742.JPG', '_DSC0743.JPG']",['2.jpg']
+18,train,"CLASS 1 MALOCCLUSION+anterior crossbite
+
+IOTN-4","['_DSC0529.JPG', '_DSC0528.JPG', '_DSC0526.JPG', '_DSC0527.JPG', '_DSC0530.JPG']",['3.jpg']
+33,train,"Diagnosis- Class 2 Malocclusion + overjet 
+IOTN-2","['DSC_0304.JPG', 'DSC_0305.JPG', 'DSC_0307.JPG', 'DSC_0302.JPG', 'DSC_0303.JPG']",['3.jpg']
+88,train,"Diagnosis- Class 2  Malocclusion + crowding +cross bite # 18
+IOTN-3
+","['_DSC0358.JPG', '_DSC0258.JPG', '_DSC0257.JPG', '_DSC0256.JPG', '_DSC0357.JPG']",['PANO.jpg']
+42,train,"Diagnosis: class 2 division 1 malocclusion+crowding+deepbite+crossbite with respect to #13
+IOTN- 4","['DSC_0044.JPG', 'DSC_0045.JPG', 'DSC_0041.JPG', 'DSC_0042.JPG', 'DSC_0043.JPG']",['2.jpg']
+90,train,"Diagnosis- Class 2  Malocclusion +missing # 5,# 12, # 21 , #28 + crowding 
+IOTN-2
+","['_DSC0753.JPG', '_DSC0752.JPG', '_DSC0751.JPG', 'DSC_0028.JPG', 'DSC_0029.JPG']",['OPG.jpg']
 8,train,"Diagnosis: Class 3 malocclusion with unilateral cleft palate, multiple missing teeth and impacted #8,
 anterior & posterior crossbite
 
 
 IOTN-5
 ","['DSC_0525.JPG', 'DSC_0530.JPG', 'DSC_0526.JPG', 'DSC_0527.JPG', 'DSC_0529.JPG']",['1.jpg']
-6,train,"Diagnosis: Class 1 malocclusion with uper and lower crowding
+99,train,"Diagnosis- Class 1 Malocclusion + crowding 
+IOTN-3
+","['_DSC0513.JPG', '_DSC0512.JPG', '_DSC0515.JPG', '_DSC0514.JPG', '_DSC0516.JPG']",['OPG.jpg']
+28,train,"Diagnosis- Class 1 Malocclusion + crowding 
+IOTN-4","['DSC_0537.JPG', 'DSC_0536.JPG', 'DSC_0534.JPG', 'DSC_0533.JPG', 'DSC_0538.JPG']",['3.jpg']
+35,train,"Diagnosis- Class 1 Malocclusion + spaces 
+IOTN-2","['DSC_0127.JPG', 'DSC_0126.JPG', 'DSC_0124.JPG', 'DSC_0125.JPG', 'DSC_0128.JPG']",['3.jpg']
+36,train,"Diagnosis- Class 2 Malocclusion + missing # 2 & 3 & 20 + crowding 
+IOTN-4
+","['IMG_6943.JPG', 'IMG_6945.JPG', 'IMG_6944.JPG', 'IMG_6946.JPG', 'IMG_6947.JPG']",['1.jpg']
+19,train,"CLASS 1 MALOCCLUSION+deep bite+impacted #22
+
+IOTN-4","['DSC_0643.JPG', 'DSC_0644.JPG', 'DSC_0645.JPG', 'DSC_0763.JPG', 'DSC_0762.JPG']",['3.jpg']
+68,train,"Diagnosis- Class 1  Malocclusion + crossbite  # 12 + spaces + rotation 
+IOTN-3","['DSC_0179.JPG', 'DSC_0354.JPG', 'DSC_0181.JPG', 'DSC_0180.JPG', 'DSC_0357.JPG']",['3.jpg']
+85,train,"Diagnosis- Class 1  Malocclusion + missing # 14 + crowding + spaces
+IOTN-3
+","['_DSC1640.JPG', '_DSC1641.JPG', '_DSC1642.JPG', '_DSC1637.JPG', '_DSC1638.JPG']",['2.jpg']
+2,train,"Diagnosis: Class 1 malocclusion with 
+ crossbite wrt #10, upper and lower crowding , ANTERIOR OPEN BITE. 
+IOTN-4","['DSC_0337.JPG', 'DSC_0336.JPG', 'DSC_0206.JPG', 'DSC_0204.JPG', 'DSC_0205.JPG']",['3.jpg']
+86,train,"Diagnosis- Class 1  Malocclusion + crowding + scissors bite # 20
+IOTN-4
+","['DSCN1149.JPG', 'DSCN1148.JPG', 'DSCN1145.JPG', 'DSCN1144.JPG', 'DSCN1146.JPG']",['opg.jpg']
+47,train,"Diagnosis: class 1 malocclsuion+spacing
+IOTN- 4","['DSC_0594.JPG', 'DSC_0591.JPG', 'DSC_0590.JPG', 'DSC_0592.JPG', 'DSC_0593.JPG']",['3.jpg']
+50,train,"DIAGNOSIS: CLASS 1 MALOCCLUSION+IMPACTED #9
+IOTN-5","['DSC_0434.JPG', 'DSC_0437.JPG', 'DSC_0340.JPG', 'DSC_0339.JPG', 'DSC_0438.JPG']",[]
+7,train,"Diagnosis: Class 2 malocclusion with 
+impacted #11, crossbite wrt #12,13,14, , upper midline shift to left by 1 mm. 
+
+IOTN-4
+
+Diagnosis: Class 3 malocclusion with bilateral cleft palate, multiple missing teeth and impacted #6anterior open bite
+anterior & posterior crossbite
+
+
+IOTN-5
+","['DSC_0219.JPG', 'DSC_0221.JPG', 'DSC_0213.JPG', 'DSC_0215.JPG', 'DSC_0217.JPG']",['C.jpg']
+25,train,"Diagnosis- Class 2 Malocclusion + spaces + rotation 
+IOTN-3","['DSC_0950.JPG', 'DSC_0951.JPG', 'DSC_0953.JPG', 'DSC_0952.JPG', 'DSC_0954.JPG']",['3.jpg']
+23,train,"Diagnosis- Class I malocclusion + spaces + rotation
+IOTN-2","['DSC_0817.JPG', 'DSC_0816.JPG', 'DSC_0818.JPG', 'DSC_0819.JPG', 'DSC_0820.JPG']",['1.jpg']
+53,train,"Diagnosis- Class 1 Malocclusion + crowding + midline shift
+IOTN-3","['_DSC3134.JPG', '_DSC3068.JPG', '_DSC3135.JPG', '_DSC3067.JPG', '_DSC3066.JPG']",['3.jpg']
+16,train,"CLASS 1 MALOCCLUSION+anterior open bite+spacing
+
+IOTN-4","['DSC_0151.JPG', 'DSC_0153.JPG', 'DSC_0152.JPG', 'DSC_0305.JPG', 'DSC_0306.JPG']",['2.jpg']
+21,train,"Diagnosis- Class 1 Malocclusion + spaces
+IOTN-2","['DSC_0195.JPG', 'DSC_0196.JPG', 'DSC_0197.JPG', 'DSC_0257.JPG', 'DSC_0256.JPG']",['3.jpg']
+67,train,"Diagnosis- Class 1  Malocclusion 
+IOTN-1","['DSC_0608.JPG', 'DSC_0048.JPG', 'DSC_0049.JPG', 'DSC_0606.JPG', 'DSC_0607.JPG']",[]
+87,train,"Diagnosis- Class 1  Malocclusion + missing # 5 ,#12,# 21 , # 28
+IOTN- 1
+","['IMG_5551.JPG', 'IMG_5550.JPG', '_DSC0102.JPG', '_DSC0100.JPG', '_DSC0101.JPG']",['OPG.jpg']
+72,train,"Diagnosis- Class 1  Malocclusion +crowding 
+IOTN-3","['_DSC0375.JPG', '_DSC0374.JPG', '_DSC0371.JPG', '_DSC0373.JPG', '_DSC0372.JPG']",['Panoramic.jpg']
+60,train,"Diagnosis- Class 1 Malocclusion + crossbite + crowding 
+IOTN-4","['_DSC2541.JPG', '_DSC2543.JPG', '_DSC2542.JPG', '_DSC2545.JPG', '_DSC2544.JPG']",['3.jpg']
+98,train,"Diagnosis- Class 2 Malocclusion + criwding + spaces + rotation 
+IOTN-4
+","['DSC_0552.JPG', 'DSC_0551.JPG', 'DSC_0550.JPG', 'DSC_0549.JPG', 'DSC_0548.JPG']",['3.jpg']
+54,train,"Diagnosis- Class 1 Malocclusion + crowding
+IOTN-4","['DSC_0848.JPG', 'DSC_0847.JPG', 'DSC_0846.JPG', 'DSC_0844.JPG', 'DSC_0845.JPG']",['3.jpg']
+89,train,"Diagnosis- Class 1  Malocclusion 
+IOTN- 1
+","['_DSC1031.JPG', '_DSC1030.JPG', '_DSC1027.JPG', '_DSC1029.JPG', '_DSC1028.JPG']",['1.jpg']
+71,train,"Diagnosis- Class 1  Malocclusion + crowding 
+IOTN-3","['DSC_0893.JPG', 'DSC_0896.JPG', 'DSC_0897.JPG', 'DSC_0895.JPG', 'DSC_0894.JPG']",['1.jpg']
+39,train,"Diagnosis- Class 3 Malocclusion + crossbite + spaces + rotation 
+IOTN-4
+","['_DSC0564.JPG', '_DSC0559.JPG', '_DSC0562.JPG', '_DSC0561.JPG', '_DSC0560.JPG']",['3.jpg']
+58,train,"Diagnosis- Class 1 Malocclusion + rotation 
+IOTN-1","['_DSC0228.JPG', '_DSC0449.JPG', '_DSC0448.JPG', '_DSC0447.JPG', '_DSC0227.JPG']",['opg.jpg']
+76,train,"Diagnosis- Class 1  Malocclusion + crowding 
+IOTN-3","['DSC_0109.JPG', 'DSC_0112.JPG', 'DSC_0111.JPG', 'DSC_0110.JPG', 'DSC_0114.JPG']",['pano.jpg']
+100,train,"Diagnosis- Class 1 Malocclusion + crowding 
+IOTN-1
+","['_DSC0274.JPG', '_DSC0273.JPG', '_DSC0272.JPG', '_DSC0270.JPG', '_DSC0271.JPG']",['1.jpg']
+74,train,"Diagnosis- Class 1  Malocclusion + crowding 
+IOTN-3","['DSC_0637.JPG', 'DSC_0635.JPG', 'DSC_0634.JPG', 'DSC_0640.JPG', 'DSC_0638.JPG']",['B.jpg']
+29,train,"Diagnosis- Class 3 Malocclusion + crossbite + crowding 
+IOTN-4","['DSC_0709.JPG', 'DSC_0708.JPG', 'DSC_0172.JPG', 'DSC_0173.JPG', 'DSC_0174.JPG']",['3.jpg']
+13,train,"CLASS 1 MALOCCLUSION+generalised spacing+missing #19 +horizontally displaced #18
+
+IOTN-3","['DSC_0085.JPG', 'DSC_0086.JPG', 'DSC_0953.JPG', 'DSC_0952.JPG', 'DSC_0954.JPG']",['2.jpg']
+20,train,"CLASS 3 MALOCCLUSION+anterior crossbite+crowding
+IOTN-4","['DSCN0021.JPG', 'DSCN0019.JPG', 'DSCN0014.JPG', 'DSCN0015.JPG', 'DSCN0016.JPG']",['ABD OPG.jpg']
+43,train,"DIAGNOSIS: CLASS 3 malocclusion with bilateral posterior crossbite, lateral open bite and crowding
+IOTN- 4","['IMG_5531.JPG', 'IMG_5530.JPG', 'IMG_5532.JPG', 'IMG_5533.JPG', 'IMG_5529.JPG']",['OPG.jpg']
+37,train,"Diagnosis- Class 2 Malocclusion + overjet 
+IOTN-3
+","['DSC_0072.JPG', 'DSC_0073.JPG', 'DSC_0071.JPG', 'DSC_0074.JPG', 'DSC_0075.JPG']",['3.jpg']
+41,train,"Diagnosis: Class 1 malocclusion with crowding
+IOTN grade 3","['DSC_0795.JPG', 'DSC_0794.JPG', 'DSC_0793.JPG', 'DSC_1023.JPG', 'DSC_1022.JPG']",['2.jpg']
+78,train,"Diagnosis- Class 1  Malocclusion + impacted # 6 + crowding 
+IOTN-5","['DSC_0157.JPG', 'DSC_0155.JPG', 'DSC_0154.JPG', 'DSC_0159.JPG', 'DSC_0158.JPG']",['L1.jpg']
+26,train,"Diagnosis- Class 3  Malocclusion + crossbite # 6  + lateral open bite + crowding 
+IOTN-4","['DSC_0337.JPG', 'DSC_0336.JPG', 'DSC_0206.JPG', 'DSC_0204.JPG', 'DSC_0205.JPG']",['3.jpg']
+11,validation,"class 1 malocclusion+bilateral anterior open bite
+IOTN-2","['_DSC0261.JPG', '_DSC0260.JPG', '_DSC0262.JPG', '_DSC0263.JPG', '_DSC0264.JPG']",['pano.jpg']
+65,validation,"Diagnosis- Class 1  Malocclusion + crowding 
+IOTN-2","['DSC_0654.JPG', 'DSC_0653.JPG', 'DSC_0652.JPG', 'DSC_0650.JPG', 'DSC_0649.JPG']",['C.jpg']
+57,validation,"Diagnosis- Class 2 Malocclusion + missing # 10  + crowding + rotation 
+IOTN-4","['DSC_0092.JPG', 'DSC_0096.JPG', 'DSC_0095.JPG', 'DSC_0094.JPG', 'DSC_0098.JPG']",['B.jpg']
+92,validation,"Diagnosis- Class 1  Malocclusion + impacted # 22+ open bite 
+IOTN-5
+","['DSC_0053.JPG', 'DSC_0052.JPG', 'DSC_0096.JPG', 'DSC_0054.JPG', 'DSC_0097.JPG']",['2.jpg']
+6,validation,"Diagnosis: Class 1 malocclusion with uper and lower crowding
 
 IOTN-3
 ","['DSC_0634.JPG', 'DSC_0631.JPG', 'DSC_0633.JPG', 'DSC_0632.JPG', 'DSC_0629.JPG']",['1.jpg']
-5,train,"Diagnosis: Class 3 malocclusion with 
-Missing #3,14,30 & 19,bilateral posterior crossbite, upper and lower crowding ,mandibular prognathia,  lower midline shift to right  by 4.5 mm, anterior and posterior open bites
-IOTN-5","['DSC_0251.JPG', 'DSC_0250.JPG', 'DSC_0252.JPG', 'DSC_0247.JPG', 'DSC_0248.JPG']",['3.jpg']
-9,train,"Diagnosis: Class 3 malocclusion with 
+30,validation,"Diagnosis- Class 2 Malocclusion + overjet
+IOTN-3","['IMG_6779.JPG', 'IMG_6784.JPG', 'IMG_6780.JPG', 'IMG_6781.JPG', 'IMG_6782.JPG']",['opg.jpg']
+56,validation,"Diagnosis- Class 3 Malocclusion + impacted # 11+ crowding 
+IOTN-5","['_DSC2918.JPG', '_DSC2919.JPG', '_DSC2921.JPG', '_DSC2920.JPG', '_DSC2922.JPG']",['3.jpg']
+40,validation,"Diagnosis- Class 2 Malocclusion + crowding + rotation 
+IOTN-3
+","['DSC_0279.JPG', 'DSC_0278.JPG', 'DSC_0283.JPG', 'DSC_0276.JPG', 'DSC_0277.JPG']",['2.jpg']
+63,validation,"Diagnosis- Class 1  Malocclusion + impacted  # 6 + crowding 
+IOTN-5","['DSC_0768.JPG', 'DSC_0765.JPG', 'DSC_0770.JPG', 'DSC_0766.JPG', 'DSC_0767.JPG']",['3.jpg']
+12,validation,"CLASS 2 MALOCCLUSION+BILATERAL POSTERIOR CROSSBITE, Potentially impacted #11
+
+IOTN-3 ( as too young to confirm the impaction of #11)","['PICT0115.JPG', 'PICT0114.JPG', 'PICT0113.JPG', '_DSC0024.JPG', '_DSC0025.JPG']",['PANO.jpg']
+14,validation,"CLASS 1 MALOCCLUSION+BILATERAL POSTERIOR CROSSBITE #14, 
+
+IOTN-4","['DSC_0910.JPG', 'DSC_0903.JPG', 'DSC_0902.JPG', 'DSC_0909.JPG', 'DSC_0908.JPG']",['2.jpg']
+1,validation,"Diagnosis: Class 1 malocclusion with 
+Missing #11, crossbite wrt #10, upper and lower crowding , upper midline shift to left by 1 mm. 
+
+IOTN-4","['DSC_1110.JPG', 'DSC_1111.JPG', 'DSC_1209.JPG', 'DSC_1208.JPG', 'DSC_1109.JPG']",['IMG_3618.jpg']
+59,validation,"Diagnosis- Class 1 Malocclusion + missing # 29
+IOTN-4","['DSC_0540.JPG', 'DSC_0541.JPG', 'DSC_0543.JPG', 'DSC_0542.JPG', 'DSC_0539.JPG']",['B.jpg']
+70,validation,"Diagnosis- Class 1  Malocclusion + spaces + rotation 
+IOTN-2","['_DSC0532.JPG', '_DSC0531.JPG', '_DSC0534.JPG', '_DSC0535.JPG', '_DSC0536.JPG']",['PANO.jpg']
+9,validation,"Diagnosis: Class 3 malocclusion with 
 anterior & posterior crossbite
 
 
 IOTN-4
 ","['DSC_0084.JPG', 'DSC_0087.JPG', 'DSC_0086.JPG', 'DSC_0083.JPG', 'DSC_0088.JPG']",['3.jpg']
-7,train,"Diagnosis: Class 2 malocclusion with 
-impacted #11, crossbite wrt #12,13,14, , upper midline shift to left by 1 mm. 
-
-IOTN-4
-","['DSC_0219.JPG', 'DSC_0221.JPG', 'DSC_0213.JPG', 'DSC_0215.JPG', 'DSC_0217.JPG']",['C.jpg']
-17,train,"CLASS 1 MALOCCLUSION+BILATERAL lateral open bite+crowding
-
-IOTN-4","['_DSC2213.JPG', '_DSC2212.JPG', '_DSC2215.JPG', '_DSC2214.JPG', '_DSC2216.JPG']",['3.jpg']
-11,train,"class 1 malocclusion+bilateral anterior open bite
-IOTN-2","['_DSC0261.JPG', '_DSC0260.JPG', '_DSC0262.JPG', '_DSC0263.JPG', '_DSC0264.JPG']",['pano.jpg']
-15,train,"CLASS 1 MALOCCLUSION+spacing+deep bite
-
-IOTN-3 ","['_DSC0671.JPG', '_DSC0670.JPG', '_DSC0672.JPG', '_DSC0673.JPG', '_DSC0669.JPG']",['pano.jpg']
-1,validation,"Diagnosis: Class 1 malocclusion with 
-Missing #11, crossbite wrt #10, upper and lower crowding , upper midline shift to left by 1 mm. 
-
-IOTN-4","['DSC_1110.JPG', 'DSC_1111.JPG', 'DSC_1209.JPG', 'DSC_1208.JPG', 'DSC_1109.JPG']",['IMG_3618.jpg']
-16,validation,"CLASS 1 MALOCCLUSION+anterior open bite+spacing
-
-IOTN-4","['DSC_0151.JPG', 'DSC_0153.JPG', 'DSC_0152.JPG', 'DSC_0305.JPG', 'DSC_0306.JPG']",['2.jpg']
-2,validation,"Diagnosis: Class 1 malocclusion with 
- crossbite wrt #10, upper and lower crowding , ANTERIOR OPEN BITE. 
-IOTN-4","['DSC_0337.JPG', 'DSC_0336.JPG', 'DSC_0206.JPG', 'DSC_0204.JPG', 'DSC_0205.JPG']",['3.jpg']
+55,validation,"Diagnosis- Class 1 Malocclusion + missing # 13 c # 19 , # 30 , # 31 + spaces 
+IOTN-3","['_DSC0446.JPG', '_DSC0445.JPG', '_DSC0045.JPG', '_DSC0047.JPG', '_DSC0046.JPG']",['3.jpg']
+4,validation,,"['DSC_0353.JPG', 'DSC_0354.JPG', 'DSC_0159.JPG', 'DSC_0160.JPG', 'DSC_0161.JPG']",['pano.jpg']
 3,validation,"Diagnosis: Class 1 malocclusion with 
  crossbite wrt #25,lower crowding ,LOWER midline shift to right by 1 mm. 
 IOTN-3","['DSC_0352.JPG', 'DSC_0353.JPG', 'DSC_0351.JPG', 'DSC_0354.JPG', 'DSC_0355.JPG']",['2.jpg']
-20,test,"CLASS 3 MALOCCLUSION+anterior crossbite+crowding
-IOTN-4","['DSCN0021.JPG', 'DSCN0019.JPG', 'DSCN0014.JPG', 'DSCN0015.JPG', 'DSCN0016.JPG']",['ABD OPG.jpg']
-13,test,"CLASS 1 MALOCCLUSION+generalised spacing+missing #19 +horizontally displaced #18
+96,validation,"Diagnosis- Class 1 Malocclusion + cross bite + midline shift 
+IOTN-4
 
-IOTN-3","['DSC_0085.JPG', 'DSC_0086.JPG', 'DSC_0953.JPG', 'DSC_0952.JPG', 'DSC_0954.JPG']",['2.jpg']
-12,test,"CLASS 2 MALOCCLUSION+BILATERAL POSTERIOR CROSSBITE, Potentially impacted #11
+","['DSC_0036.JPG', 'DSC_0037.JPG', 'DSC_0041.JPG', 'DSC_0039.JPG', 'DSC_0038.JPG']",['3.jpg']
+62,validation,"Diagnosis- Class 2  Malocclusion  + rotation
+IOTN-2","['DSCN0319.JPG', 'DSCN0318.JPG', 'DSCN0315.JPG', 'DSCN0316.JPG', 'DSCN0317.JPG']",['LAU2.jpg']
+15,test,"CLASS 1 MALOCCLUSION+spacing+deep bite
 
-IOTN-3 ( as too young to confirm the impaction of #11)","['PICT0115.JPG', 'PICT0114.JPG', 'PICT0113.JPG', '_DSC0024.JPG', '_DSC0025.JPG']",['PANO.jpg']
-18,test,"CLASS 1 MALOCCLUSION+anterior crossbite
+IOTN-3 ","['_DSC0671.JPG', '_DSC0670.JPG', '_DSC0672.JPG', '_DSC0673.JPG', '_DSC0669.JPG']",['pano.jpg']
+31,test,"Diagnosis- Class 3 Malocclusion + crossbite  + crowding 
+IOTN-4","['DSC_0965.JPG', 'DSC_0964.JPG', 'DSC_0666.JPG', 'DSC_0665.JPG', 'DSC_0664.JPG']",['3.jpg']
+64,test,"Diagnosis- Class 1  Malocclusion  + crowding + rotation 
+IOTN-3","['_DSC2293.JPG', '_DSC2294.JPG', '_DSC2295.JPG', '_DSC2297.JPG', '_DSC2296.JPG']",['2.jpg']
+81,test,"Diagnosis- Class 2 Malocclusion + overjet + deep bite 
+IOTN-3","['DSC_0797.JPG', 'DSC_0502.JPG', 'DSC_0503.JPG', 'DSC_0504.JPG', 'DSC_0798.JPG']",['1.jpg']
+75,test,"Diagnosis- Class 1  Malocclusion + impacted # 6 + crowding 
+IOTN-5
+","['DSC_0735.JPG', 'DSC_0734.JPG', 'DSC_0733.JPG', 'DSC_0732.JPG', 'DSC_0731.JPG']",['3.jpg']
+10,test,"Diagnosis: Class 1 malocclusion with bilateral posterir crossbite, ( more than 1 mm but less than 3.5 mm) 
 
-IOTN-4","['_DSC0529.JPG', '_DSC0528.JPG', '_DSC0526.JPG', '_DSC0527.JPG', '_DSC0530.JPG']",['3.jpg']
+IOTN-3
+","['_DSC0007.JPG', '_DSC0011.JPG', '_DSC0010.JPG', '_DSC0009.JPG', '_DSC0008.JPG']",['3.jpg']
+27,test,"Diagnosis- Class 1 Malocclusion + overjet + crowding 
+IOTN-3","['DSC_0782.JPG', 'DSC_0779.JPG', 'DSC_0446.JPG', 'DSC_0447.JPG', 'DSC_0448.JPG']",['3.jpg']
+24,test,"Diagnosis- Class 2 Malocclusion + spaces
+IOTN-3","['DSC_0140.JPG', 'DSC_0068.JPG', 'DSC_0066.JPG', 'DSC_0067.JPG', 'DSC_0139.JPG']",['1.jpg']
+69,test,"Diagnosis- Class 2 Malocclusion + overjet + spaces 
+IOTN-3","['DSCN0490.JPG', 'DSCN0494.JPG', 'DSCN0495.JPG', 'DSCN0489.JPG', 'DSCN0488.JPG']",['L2.jpg']
+61,test,"Diagnosis- Class 1  Malocclusion + scissors bite + crowding +spaces + rotation
+IOTN-4
+","['_DSC0182.JPG', '_DSC0183.JPG', '_DSC0181.JPG', '_DSC0184.JPG', '_DSC0185.JPG']",['1.jpg']
+34,test,"Diagnosis- Class 3 Malocclusion + crossbite # 7 
+IOTN-3","['DSC_0596.JPG', 'DSC_0053.JPG', 'DSC_0052.JPG', 'DSC_0050.JPG', 'DSC_0051.JPG']",['3.jpg']
+45,test,"Diagnosis: class 2 division 1 +deep traumatic overbite+upper spacing +increased overjet
+IOTN- 4
+
+","['DSC_0368.JPG', 'DSC_0369.JPG', 'DSC_0311.JPG', 'DSC_0313.JPG', 'DSC_0312.JPG']",['1.jpg']
+79,test,"Diagnosis- Class 1  Malocclusion + crowding + rotation 
+IOTN-3","['DSC_0245.JPG', 'DSC_0244.JPG', 'DSC_0247.JPG', 'DSC_0243.JPG', 'DSC_0249.JPG']",['B.jpg']
+80,test,"Diagnosis- Class 1  Malocclusion + crowding + rotation 
+IOTN-3","['DSC_0521.JPG', 'DSC_0519.JPG', 'DSC_0518.JPG', 'DSC_0516.JPG', 'DSC_0517.JPG']",['1.jpg']
+49,test,"Diagnosis: class 1 +anterior open bite+spacing
+IOTN- 4","['DSC_0109.JPG', 'DSC_0108.JPG', 'DSC_0107.JPG', 'DSC_0111.JPG', 'DSC_0110.JPG']",['1.jpg']
+66,test,"Diagnosis- Class 1  Malocclusion + crossbite # 10 + crowding 
+IOTN-3","['DSC_0872.JPG', 'DSC_0874.JPG', 'DSC_0875.JPG', 'DSC_0877.JPG', 'DSC_0876.JPG']",['1.jpg']
+77,test,"Diagnosis- Class 2  Malocclusion +  crowding 
+IOTN-4","['_DSC2729.JPG', '_DSC2733.JPG', '_DSC2732.JPG', '_DSC2730.JPG', '_DSC2731.JPG']",['2.jpg']
+48,test,"Diagnosis: class 3 malocclusion+reverse overjet+crowding
+Iotn- 5","['_DSC0148.JPG', '_DSC0149.JPG', '_DSC0152.JPG', '_DSC0150.JPG', '_DSC0151.JPG']",['3.jpg']
+51,test,"Diagnosis- Class 2 Malocclusion + overjet + deep bite
+IOTN-4","['DSC_0625.JPG', 'DSC_0325.JPG', 'DSC_0324.JPG', 'DSC_0323.JPG', 'DSC_0322.JPG']",['3.jpg']
+73,test,"Diagnosis- Class 1  Malocclusion +overjet + crowding + spaces 
+IOTN-2","['DSC_0568.JPG', 'DSC_0567.JPG', 'DSC_0566.JPG', 'DSC_0564.JPG', 'DSC_0565.JPG']",['3.jpg']

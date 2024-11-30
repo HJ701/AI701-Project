@@ -12,7 +12,7 @@ from sklearn.decomposition import PCA
 from sklearn.model_selection import train_test_split
 import joblib
 from transformers import BertTokenizer, BertModel
-import torch
+# import torch
 
 # Ensure necessary NLTK data files are downloaded
 nltk.download('punkt', quiet=True)
