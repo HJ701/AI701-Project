@@ -1,0 +1,70 @@
+patient_id,set,clinical_notes,image_filenames,radiograph_filenames,IOTN_Grade,Malocclusion_Class,Diagnosis,anterior crossbite,anterior open bite,crossbite,crowding,deep bite,lower crowding,lower midline shift,midline shift,missing teeth,open bite,posterior crossbite,spacing,upper midline shift,Malocclusion_Class_Encoded
+19,train,"CLASS 1 MALOCCLUSION+deep bite+impacted #22
+
+IOTN-4","['DSC_0643.JPG', 'DSC_0644.JPG', 'DSC_0645.JPG', 'DSC_0763.JPG', 'DSC_0762.JPG']",['3.jpg'],4,Class I,['deep bite'],0,0,0,0,1,0,0,0,0,0,0,0,0,0
+4,train,"Diagnosis: Class 2 malocclusion with 
+impacted #11, crossbite wrt #12,13,14, , upper midline shift to left by 1 mm. 
+
+IOTN-4
+","['DSC_0353.JPG', 'DSC_0354.JPG', 'DSC_0159.JPG', 'DSC_0160.JPG', 'DSC_0161.JPG']",['pano.jpg'],4,Class II,"['upper midline shift', 'midline shift', 'crossbite']",0,0,1,0,0,0,0,1,0,0,0,0,1,1
+10,train,"Diagnosis: Class 1 malocclusion with bilateral posterir crossbite, ( more than 1 mm but less than 3.5 mm) 
+
+IOTN-3
+","['_DSC0007.JPG', '_DSC0011.JPG', '_DSC0010.JPG', '_DSC0009.JPG', '_DSC0008.JPG']",['3.jpg'],3,Class I,['crossbite'],0,0,1,0,0,0,0,0,0,0,0,0,0,0
+14,train,"CLASS 1 MALOCCLUSION+BILATERAL POSTERIOR CROSSBITE #14, 
+
+IOTN-4","['DSC_0910.JPG', 'DSC_0903.JPG', 'DSC_0902.JPG', 'DSC_0909.JPG', 'DSC_0908.JPG']",['2.jpg'],4,Class I,"['posterior crossbite', 'crossbite']",0,0,1,0,0,0,0,0,0,0,1,0,0,0
+8,train,"Diagnosis: Class 3 malocclusion with unilateral cleft palate, multiple missing teeth and impacted #8,
+anterior & posterior crossbite
+
+
+IOTN-5
+","['DSC_0525.JPG', 'DSC_0530.JPG', 'DSC_0526.JPG', 'DSC_0527.JPG', 'DSC_0529.JPG']",['1.jpg'],5,Class III,"['missing teeth', 'posterior crossbite', 'crossbite']",0,0,1,0,0,0,0,0,1,0,1,0,0,2
+6,train,"Diagnosis: Class 1 malocclusion with uper and lower crowding
+
+IOTN-3
+","['DSC_0634.JPG', 'DSC_0631.JPG', 'DSC_0633.JPG', 'DSC_0632.JPG', 'DSC_0629.JPG']",['1.jpg'],3,Class I,"['crowding', 'lower crowding']",0,0,0,1,0,1,0,0,0,0,0,0,0,0
+5,train,"Diagnosis: Class 3 malocclusion with 
+Missing #3,14,30 & 19,bilateral posterior crossbite, upper and lower crowding ,mandibular prognathia,  lower midline shift to right  by 4.5 mm, anterior and posterior open bites
+IOTN-5","['DSC_0251.JPG', 'DSC_0250.JPG', 'DSC_0252.JPG', 'DSC_0247.JPG', 'DSC_0248.JPG']",['3.jpg'],5,Class III,"['posterior crossbite', 'lower crowding', 'crowding', 'midline shift', 'lower midline shift', 'crossbite']",0,0,1,1,0,1,1,1,0,0,1,0,0,2
+9,train,"Diagnosis: Class 3 malocclusion with 
+anterior & posterior crossbite
+
+
+IOTN-4
+","['DSC_0084.JPG', 'DSC_0087.JPG', 'DSC_0086.JPG', 'DSC_0083.JPG', 'DSC_0088.JPG']",['3.jpg'],4,Class III,"['posterior crossbite', 'crossbite']",0,0,1,0,0,0,0,0,0,0,1,0,0,2
+7,train,"Diagnosis: Class 3 malocclusion with bilateral cleft palate, multiple missing teeth and impacted #6anterior open bite
+anterior & posterior crossbite
+
+
+IOTN-5
+","['DSC_0219.JPG', 'DSC_0221.JPG', 'DSC_0213.JPG', 'DSC_0215.JPG', 'DSC_0217.JPG']",['C.jpg'],5,Class III,"['missing teeth', 'open bite', 'posterior crossbite', 'crossbite']",0,0,1,0,0,0,0,0,1,1,1,0,0,2
+17,train,"CLASS 1 MALOCCLUSION+BILATERAL lateral open bite+crowding
+
+IOTN-4","['_DSC2213.JPG', '_DSC2212.JPG', '_DSC2215.JPG', '_DSC2214.JPG', '_DSC2216.JPG']",['3.jpg'],4,Class I,"['open bite', 'crowding']",0,0,0,1,0,0,0,0,0,1,0,0,0,0
+11,train,"class 1 malocclusion+bilateral anterior open bite
+IOTN-2","['_DSC0261.JPG', '_DSC0260.JPG', '_DSC0262.JPG', '_DSC0263.JPG', '_DSC0264.JPG']",['pano.jpg'],2,Class I,"['anterior open bite', 'open bite']",0,1,0,0,0,0,0,0,0,1,0,0,0,0
+15,train,"CLASS 1 MALOCCLUSION+spacing+deep bite
+
+IOTN-3 ","['_DSC0671.JPG', '_DSC0670.JPG', '_DSC0672.JPG', '_DSC0673.JPG', '_DSC0669.JPG']",['pano.jpg'],3,Class I,"['spacing', 'deep bite']",0,0,0,0,1,0,0,0,0,0,0,1,0,0
+1,validation,"Diagnosis: Class 1 malocclusion with Missing #11, crossbite wrt #10, upper and lower crowding , upper midline shift to left by 1 mm. IOTN-4 crossbite of #10- grades it to 4","['DSC_1110.JPG', 'DSC_1111.JPG', 'DSC_1209.JPG', 'DSC_1208.JPG', 'DSC_1109.JPG']",['IMG_3618.jpg'],4,Class I,"['lower crowding', 'crowding', 'midline shift', 'upper midline shift', 'crossbite']",0,0,1,1,0,1,0,1,0,0,0,0,1,0
+16,validation,"CLASS 1 MALOCCLUSION+anterior open bite+spacing
+
+IOTN-4","['DSC_0151.JPG', 'DSC_0153.JPG', 'DSC_0152.JPG', 'DSC_0305.JPG', 'DSC_0306.JPG']",['2.jpg'],4,Class I,"['spacing', 'anterior open bite', 'open bite']",0,1,0,0,0,0,0,0,0,1,0,1,0,0
+2,validation,"Diagnosis: Class 1 malocclusion with 
+ crossbite wrt #10, upper and lower crowding , ANTERIOR OPEN BITE. 
+IOTN-4","['DSC_0337.JPG', 'DSC_0336.JPG', 'DSC_0206.JPG', 'DSC_0204.JPG', 'DSC_0205.JPG']",['3.jpg'],4,Class I,"['open bite', 'lower crowding', 'crowding', 'anterior open bite', 'crossbite']",0,1,1,1,0,1,0,0,0,1,0,0,0,0
+3,validation,"Diagnosis: Class 1 malocclusion with 
+ crossbite wrt #25,lower crowding ,LOWER midline shift to right by 1 mm. 
+IOTN-3","['DSC_0352.JPG', 'DSC_0353.JPG', 'DSC_0351.JPG', 'DSC_0354.JPG', 'DSC_0355.JPG']",['2.jpg'],3,Class I,"['lower crowding', 'crowding', 'midline shift', 'lower midline shift', 'crossbite']",0,0,1,1,0,1,1,1,0,0,0,0,0,0
+20,test,"CLASS 3 MALOCCLUSION+anterior crossbite+crowding
+IOTN-4","['DSCN0021.JPG', 'DSCN0019.JPG', 'DSCN0014.JPG', 'DSCN0015.JPG', 'DSCN0016.JPG']",['ABD OPG.jpg'],4,Class III,"['crossbite', 'crowding', 'anterior crossbite']",1,0,1,1,0,0,0,0,0,0,0,0,0,2
+13,test,"CLASS 1 MALOCCLUSION+generalised spacing+missing #19 +horizontally displaced #18
+
+IOTN-3","['DSC_0085.JPG', 'DSC_0086.JPG', 'DSC_0953.JPG', 'DSC_0952.JPG', 'DSC_0954.JPG']",['2.jpg'],3,Class I,['spacing'],0,0,0,0,0,0,0,0,0,0,0,1,0,0
+12,test,"CLASS 2 MALOCCLUSION+BILATERAL POSTERIOR CROSSBITE, Potentially impacted #11
+
+IOTN-3 ( as too young to confirm the impaction of #11)","['PICT0115.JPG', 'PICT0114.JPG', 'PICT0113.JPG', '_DSC0024.JPG', '_DSC0025.JPG']",['PANO.jpg'],3,Class II,"['posterior crossbite', 'crossbite']",0,0,1,0,0,0,0,0,0,0,1,0,0,1
+18,test,"CLASS 1 MALOCCLUSION+anterior crossbite
+
+IOTN-4","['_DSC0529.JPG', '_DSC0528.JPG', '_DSC0526.JPG', '_DSC0527.JPG', '_DSC0530.JPG']",['3.jpg'],4,Class I,"['crossbite', 'anterior crossbite']",1,0,1,0,0,0,0,0,0,0,0,0,0,0

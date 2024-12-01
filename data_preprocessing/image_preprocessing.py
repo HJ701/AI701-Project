@@ -63,6 +63,15 @@ def flip_vertical(image):
     """
     return tf.image.flip_up_down(image)
 
+<<<<<<< HEAD
+=======
+def rotate_90deg(image):
+    """
+    Rotates the image by 90 degrees.
+    """
+    return tf.image.rot90(image)
+
+>>>>>>> feature_extraction_with_classification_fusion_layer
 
 # this is a workaround to avoid reinitializing the layer every time
 rot_layer = tf.keras.layers.RandomRotation(factor=0.1, fill_mode="constant")
@@ -113,7 +122,11 @@ def _show_image(image, label=None):
     plt.show()
 
 
+<<<<<<< HEAD
 def _augment_image(image, augmentations=None):
+=======
+def augment_image(image, augmentations=None):
+>>>>>>> feature_extraction_with_classification_fusion_layer
     """
     Applies data augmentation techniques to the image.
     Currently supported augmentations: flip_horizontal, flip_vertical, rotate.
@@ -205,7 +218,11 @@ def preprocess_dataset(
             image_path, target_size=(224, 224), preserve_aspect_ratio=True
         )
         if is_training and augmentations:
+<<<<<<< HEAD
             image = _augment_image(image, augmentations)
+=======
+            image = augment_image(image, augmentations)
+>>>>>>> feature_extraction_with_classification_fusion_layer
         return image, label
 
     # Map the processing function to each item
@@ -217,4 +234,8 @@ def preprocess_dataset(
     # Prefetch to improve performance
     dataset = dataset.prefetch(tf.data.AUTOTUNE)
 
+<<<<<<< HEAD
     return dataset
+=======
+    return dataset
+>>>>>>> feature_extraction_with_classification_fusion_layer

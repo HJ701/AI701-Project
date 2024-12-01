@@ -1,0 +1,44 @@
+patient_id,clinical_notes,IOTN_Grade,Malocclusion_Class,Diagnosis
+19,"CLASS 1 MALOCCLUSION+deep bite+impacted #22
+
+IOTN-4",4,Class I,['deep bite']
+4,"Diagnosis: Class 2 malocclusion with 
+impacted #11, crossbite wrt #12,13,14, , upper midline shift to left by 1 mm. 
+
+IOTN-4
+",4,Class II,"['upper midline shift', 'midline shift', 'crossbite']"
+10,"Diagnosis: Class 1 malocclusion with bilateral posterir crossbite, ( more than 1 mm but less than 3.5 mm) 
+
+IOTN-3
+",3,Class I,['crossbite']
+14,"CLASS 1 MALOCCLUSION+BILATERAL POSTERIOR CROSSBITE #14, 
+
+IOTN-4",4,Class I,"['posterior crossbite', 'crossbite']"
+8,"Diagnosis: Class 3 malocclusion with unilateral cleft palate, multiple missing teeth and impacted #8,
+anterior & posterior crossbite
+
+
+IOTN-5
+",5,Class III,"['missing teeth', 'posterior crossbite', 'crossbite']"
+6,"Diagnosis: Class 1 malocclusion with uper and lower crowding
+
+IOTN-3
+",3,Class I,"['crowding', 'lower crowding']"
+5,"Diagnosis: Class 3 malocclusion with 
+Missing #3,14,30 & 19,bilateral posterior crossbite, upper and lower crowding ,mandibular prognathia,  lower midline shift to right  by 4.5 mm, anterior and posterior open bites
+IOTN-5",5,Class III,"['posterior crossbite', 'lower crowding', 'crowding', 'midline shift', 'lower midline shift', 'crossbite']"
+9,"Diagnosis: Class 3 malocclusion with 
+anterior & posterior crossbite
+
+
+IOTN-4
+",4,Class III,"['posterior crossbite', 'crossbite']"
+7,"Diagnosis: Class 3 malocclusion with bilateral cleft palate, multiple missing teeth and impacted #6anterior open bite
+anterior & posterior crossbite
+
+
+IOTN-5
+",5,Class III,"['missing teeth', 'open bite', 'posterior crossbite', 'crossbite']"
+17,"CLASS 1 MALOCCLUSION+BILATERAL lateral open bite+crowding
+
+IOTN-4",4,Class I,"['open bite', 'crowding']"

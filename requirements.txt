@@ -8,11 +8,14 @@ joblib
 python-dateutil
 
 # Machine Learning and Deep Learning Frameworks
-tensorflow>=2.0
+tensorflow-macos
+tensorflow-metal
 keras
-torch
 torchvision
+<<<<<<< HEAD
 # pytorch3d
+=======
+>>>>>>> feature_extraction_with_classification_fusion_layer
 tensorflow-addons
 
 # Natural Language Processing
@@ -33,17 +36,9 @@ scikit-image
 albumentations
 imgaug
 
-# 3D Data Processing
-trimesh
-open3d
-meshio
-vtk
-mayavi
-
 # Medical Image Processing
 pydicom
 SimpleITK
-monai
 nibabel
 
 # Visualization
@@ -55,34 +50,14 @@ tensorboard
 # Evaluation Metrics
 scikit-learn
 
-# Deployment
-flask
-django
-fastapi
-uvicorn
-gunicorn
-starlette
-
 # Configuration and Environment
 python-dotenv
 pydantic
-
-# Logging and Debugging
-loguru
-pytest
-
-# Model Explainability
-shap
-lime
-captum
 
 # Serialization and Data Formats
 pickle5
 hdf5storage
 msgpack
-
-# Compression and File Handling
-pyzipper
 
 # Advanced Mathematical Functions
 sympy
@@ -91,12 +66,5 @@ numba
 # For BERT, GPT Models
 sentencepiece
 
-# Progress Bars
-tqdm
-
 # Multiprocessing and Parallelism
 multiprocess
-
-# Code Formatting and Linting
-black
-flake8
