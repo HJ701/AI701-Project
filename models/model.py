@@ -72,7 +72,7 @@ class OrthoNet(tf.keras.Model):
     def from_config(cls, config):
         return cls(**config)
 
-    def call(self, inputs):
+    def call(self, inputs, training=False):
         images, radiographs = inputs
         # Image feature extraction
         image_features = self.image_feature_extractor(images)
@@ -85,12 +85,10 @@ class OrthoNet(tf.keras.Model):
             fused_features
         )
 
-        # iotn and malocclusion outputs are single-label classification
-        # outputs_iotn = tf.nn.softmax(outputs_iotn)
-        outputs_iotn = tf.nn.sigmoid(outputs_iotn)
-        outputs_malocclusion = tf.nn.softmax(outputs_malocclusion)
-        # subclass outputs are multi-label classification
-        outputs_subclass = tf.nn.sigmoid(outputs_subclass)
+        if not training:
+            outputs_iotn = tf.nn.sigmoid(outputs_iotn)
+            outputs_malocclusion = tf.nn.softmax(outputs_malocclusion)
+            outputs_subclass = tf.nn.sigmoid(outputs_subclass)
 
         return outputs_iotn, outputs_malocclusion, outputs_subclass
 

@@ -86,7 +86,7 @@ IOTN-4
 47,train,"Diagnosis: class 1 malocclsuion+spacing
 IOTN- 4","['DSC_0594.JPG', 'DSC_0591.JPG', 'DSC_0590.JPG', 'DSC_0592.JPG', 'DSC_0593.JPG']",['3.jpg']
 50,train,"DIAGNOSIS: CLASS 1 MALOCCLUSION+IMPACTED #9
-IOTN-5","['DSC_0434.JPG', 'DSC_0437.JPG', 'DSC_0340.JPG', 'DSC_0339.JPG', 'DSC_0438.JPG']",[]
+IOTN-5","['DSC_0434.JPG', 'DSC_0437.JPG', 'DSC_0340.JPG', 'DSC_0339.JPG', 'DSC_0438.JPG']",['2.jpg']
 7,train,"Diagnosis: Class 2 malocclusion with 
 impacted #11, crossbite wrt #12,13,14, , upper midline shift to left by 1 mm. 
 
@@ -110,7 +110,7 @@ IOTN-4","['DSC_0151.JPG', 'DSC_0153.JPG', 'DSC_0152.JPG', 'DSC_0305.JPG', 'DSC_0
 21,train,"Diagnosis- Class 1 Malocclusion + spaces
 IOTN-2","['DSC_0195.JPG', 'DSC_0196.JPG', 'DSC_0197.JPG', 'DSC_0257.JPG', 'DSC_0256.JPG']",['3.jpg']
 67,train,"Diagnosis- Class 1  Malocclusion 
-IOTN-1","['DSC_0608.JPG', 'DSC_0048.JPG', 'DSC_0049.JPG', 'DSC_0606.JPG', 'DSC_0607.JPG']",[]
+IOTN-1","['DSC_0608.JPG', 'DSC_0048.JPG', 'DSC_0049.JPG', 'DSC_0606.JPG', 'DSC_0607.JPG']",['3.jpg']
 87,train,"Diagnosis- Class 1  Malocclusion + missing # 5 ,#12,# 21 , # 28
 IOTN- 1
 ","['IMG_5551.JPG', 'IMG_5550.JPG', '_DSC0102.JPG', '_DSC0100.JPG', '_DSC0101.JPG']",['OPG.jpg']

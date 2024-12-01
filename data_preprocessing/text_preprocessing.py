@@ -294,13 +294,47 @@ def preprocess_text_data(df, is_training=True):
     joblib.dump(mlb, 'mlb.pkl')
     
     # One-hot encode 'Malocclusion_Class'
-    malocclusion_dummies = pd.get_dummies(labels_df['Malocclusion_Class'], prefix='Malocclusion_Class')
+    # malocclusion_dummies = pd.get_dummies(labels_df['Malocclusion_Class'], prefix='Malocclusion_Class')
     
     # Concatenate all features
     features_df = pd.concat([
         embedding_df,
         labels_df[['IOTN_Grade']],
         malocclusion_dummies,
+        diagnosis_df
+    ], axis=1)
+    
+    return features_df
+
+def preprocess_text_data_new(df):
+    """
+    Preprocesses the text data in the DataFrame and returns features.
+    """
+    # Extract labels
+    df['Labels'] = df['clinical_notes'].apply(preprocess_and_extract_labels)
+    
+    # Clean and normalize text (if needed)
+    df['cleaned_text'] = df['clinical_notes'].apply(clean_text)
+    
+    # Encode text using BERT
+    texts = df['cleaned_text'].tolist()
+    
+    # Extract structured labels from df['Labels']
+    labels_df = pd.json_normalize(df['Labels'])
+    
+    # Handle 'Diagnosis' field
+    mlb = MultiLabelBinarizer()
+    diagnosis_binarized = mlb.fit_transform(labels_df['Diagnosis'])
+    diagnosis_df = pd.DataFrame(diagnosis_binarized, columns=mlb.classes_, index=df.index)
+    
+    # Concatenate all features
+    features_df = pd.concat([
+        df[['patient_id']],
+        df[['set']],
+        df[['image_filenames']],
+        df[['radiograph_filenames']],
+        labels_df[['IOTN_Grade']],
+        labels_df[['Malocclusion_Class']],
         diagnosis_df
     ], axis=1)
     

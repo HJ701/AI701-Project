@@ -16,6 +16,7 @@ from sklearn.metrics import (
 )
 
 from data_preprocessing import get_dataset, malocclusion_mapping
+from models import OrthoNet
 
 
 def to_one_hot(y_true, num_classes):
@@ -49,6 +50,12 @@ def parse_args():
         type=str,
         default="experiments/exp/model.keras",
         help="Path to the model",
+    )
+    parser.add_argument(
+        "-split",
+        type=str,
+        default="test",
+        help="Split to evaluate the model on (train, validation, test)",
     )
     return parser.parse_args()
 
@@ -94,13 +101,19 @@ if __name__ == "__main__":
 
     # Evaluate the model
     test_ds = get_dataset(
-        path="Processed_Samples/consolidated_data.csv",
-        split="test",
+        csv_path="Processed_Samples/consolidated_full_data.csv",
+        imgs_path="../orthoai_patient_records/orthoai_patient_records/",
+        split=args.split,
         batch_size=args.batch_size,
     )
 
     # use the best model
-    model = tf.keras.models.load_model(args.model_path)
+    if args.model_path.endswith(".h5"):
+        model = OrthoNet(n_classes_iotn=1, n_classes_malocclusion=3, n_classes_subclass=16)
+        model.load_weights(args.model_path)
+    else:
+        assert args.model_path.endswith(".keras")
+        model = tf.keras.models.load_model(args.model_path)
 
     # get labels for the test set
     y_iotn, y_malocclusion, y_subclass = [], [], []
@@ -117,7 +130,7 @@ if __name__ == "__main__":
     # get predictions
     y_pred_iotn, y_pred_malocclusion, y_pred_subclass = model.predict(test_ds)
     y_thresh_iotn = (y_pred_iotn > 0.5).astype(int)
-    y_thresh_malocclusion = tf.argmax(y_pred_malocclusion, axis=1)
+    y_thresh_malocclusion = tf.argmax(y_pred_malocclusion, axis=1).numpy()
     y_thresh_subclass = (y_pred_subclass > 0.5).astype(int)
 
     # accuracy
@@ -184,11 +197,12 @@ if __name__ == "__main__":
     df["IOTN Grade"] = iotn_metrics
     df["Malocclusion Class"] = malocclusion_metrics
 
-    data = pd.read_csv("Processed_Samples/consolidated_data.csv")
-    subclasses = data.columns[6:][:-1]
     subclass_metrics = pd.DataFrame(
         columns=["Subclass", "F1 Score", "Precision", "Recall", "ROC AUC"]
     )
+
+    data = pd.read_csv("Processed_Samples/consolidated_full_data.csv")
+    subclasses = data.columns[6:]
     subclass_metrics["Subclass"] = subclasses
     subclass_metrics["F1 Score"] = f1_subclass
     subclass_metrics["Precision"] = precision_subclass
@@ -247,3 +261,8 @@ if __name__ == "__main__":
             )
         )
         plt.close()
+
+'''
+2.2017
+val_accuracy: 0.6000 - val_binary_accuracy: 0.7333 - val_binary_accuracy_1: 0.8683 - val_binary_crossentropy_loss: 0.5354 - val_loss: 2.9944 - val_sparse_categorical_crossentropy_loss: 1.3520
+'''

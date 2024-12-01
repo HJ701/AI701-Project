@@ -61,12 +61,13 @@ def process_sample(**kwargs):
     return (image, radiograph), (label1, label2, label3)
 
 
-def get_dataset(path, batch_size, split="train", augmentations=None):
+def get_dataset(csv_path, imgs_path, batch_size, split="train", augmentations=None):
     """
     Create a tf.data.Dataset from the CSV file at the given path.
 
     Args:
-        path (str): Path to the CSV file.
+        csv_path (str): Path to the CSV file.
+        imgs_path (str): Path to the directory containing the images folders.
         batch_size (int): Batch size for the dataset.
         split (str): Split of the dataset. One of 'train', 'validation', or 'test'.
         augmentations (list): List of tuples where each tuple contains the augmentation name and its parameters. See augment_image function for details.
@@ -75,7 +76,7 @@ def get_dataset(path, batch_size, split="train", augmentations=None):
         tf.data.Dataset: Dataset object containing the processed samples.
     """
     assert split in ["train", "validation", "test"], "Invalid split"
-    df = pd.read_csv(path)
+    df = pd.read_csv(csv_path)
     df = df.loc[df["set"] == split].drop(columns=["set"])
     print(f"Loaded {split} data with {len(df)} samples")
     n_patients = len(df["patient_id"].unique())
@@ -84,16 +85,16 @@ def get_dataset(path, batch_size, split="train", augmentations=None):
     # prepare image and radiograph paths
     df["patient_id"] = df["patient_id"].astype(str)
     df["image_path"] = df.apply(
-        lambda x: os.path.join("data", x["patient_id"], x["image_path"]), axis=1
+        lambda x: os.path.join(imgs_path, x["patient_id"], x["image_path"]), axis=1
     )
     df["radiograph_path"] = df.apply(
-        lambda x: os.path.join("data", x["patient_id"], x["radiograph_path"]), axis=1
+        lambda x: os.path.join(imgs_path, x["patient_id"], x["radiograph_path"]), axis=1
     )
+    df = df.drop(columns=["patient_id"])
     # encode IOTN and malocclusion class
     df["IOTN_grade"] = df["IOTN_grade"].map(IOTN_mapping)
     df["malocclusion_class"] = df["malocclusion_class"].map(malocclusion_mapping)
 
-    df = df.drop(columns=["patient_id", "Malocclusion_Class_Encoded"])
     dataset = tf.data.Dataset.from_tensor_slices(dict(df))
 
     if split == "train":
@@ -116,12 +117,20 @@ def get_dataset(path, batch_size, split="train", augmentations=None):
 
 # test
 if __name__ == "__main__":
+    from imageio import imwrite
+    from glob import glob
     dataset = get_dataset(
         "Processed_Samples/consolidated_data.csv",
+        "../orthoai_patient_records/orthoai_patient_records/",
         batch_size=32,
         split="train",
         augmentations=[("flip_horizontal", {})],
     )
-    for image, radiograph, labels in dataset.take(1):
-        print(image.shape, radiograph.shape, labels)
-        break
+    for (images, radiographs), (label1, label2, label3, pid) in dataset:
+        for i in range(images.shape[0]):
+            cur_pid = pid[i].numpy().decode('utf-8')
+            existing_files = sorted(glob(f"data/samples/img/{cur_pid}_*"))
+            last_idx = existing_files[-1].split("_")[-1].split(".")[0] if existing_files else -1
+            idx = int(last_idx) + 1
+            imwrite(f"data/samples/img/{cur_pid}_{idx}.png", np.uint8(images[i].numpy() * 255))
+            imwrite(f"data/samples/rad/{cur_pid}.png", np.uint8(radiographs[i].numpy() * 255))
