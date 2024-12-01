@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # orthoai_poc
 OrthoAI Project  - POC/POV System - AI for Dental Treatments
 =======
@@ -57,4 +56,3 @@ and substitute the placeholders with the path to the model checkpoint and the de
 
 ## Pretrained Model
 We provide a pretrained model for the OrthoAI system. You can download the model checkpoint and results from the following link: [Pretrained Model](https://drive.google.com/file/d/12zrJzAw_j-QX5dF3K_MvfQnuVpCc26UW/view?usp=sharing).
->>>>>>> feature_extraction_with_classification_fusion_layer
