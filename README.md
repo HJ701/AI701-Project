@@ -1,9 +1,5 @@
-# orthoai_poc
 OrthoAI Project  - POC/POV System - AI for Dental Treatments
 =======
-# OrthoAI POC
-OrthoAI Project  - POC/POV System - AI for Dental Treatments
-
 ## Project Description
 OrthoAI is a POC/POV system that uses AI to assist in dental treatments. The system is designed to help dentists in the diagnosis and treatment of dental problems, as well as to provide insurance companies with a tool to assess the risk of dental claims. The system uses machine learning algorithms to analyze dental images and patient data, and provides an assessment of the patient's dental health.
 
